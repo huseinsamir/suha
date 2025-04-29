@@ -1,30 +1,75 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ÚíÏ ãíáÇÏ ÓÚíÏ Suha!</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Happy Birthday Suha!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffdde1, #ee9ca7);
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 100px 20px 50px;
+    }
+    h1 {
+      font-size: 3em;
+      animation: fadeInDown 2s ease-in-out;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-top: -10px;
+      animation: fadeInUp 2s ease-in-out;
+    }
+    .message {
+      max-width: 600px;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 15px;
+      font-size: 1.2em;
+      line-height: 1.6;
+      backdrop-filter: blur(5px);
+      animation: fadeIn 3s ease-in-out;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #f3f3f3;
+    }
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
 </head>
 <body>
-  <div class="balloons-container">
-    <!-- ÈÇáæäÇÊ ãÊÍÑßÉ -->
-  </div>
   <header>
-    <h1>ÚíÏ ãíáÇÏ ÓÚíÏ Suha :)</h1>
-    <h2>30 ÃÈÑíá 2003</h2>
+    <h1>Happy Birthday Suha!</h1>
+    <h2>April 30, 2003</h2>
   </header>
 
   <div class="message">
-    <p>Suha¡ ßá ÚÇã æÃäÊö ÈÎíÑ!</p>
-    <p>ÃÊãäì Ãä ÊÍŞŞí ßá ÃÍáÇãßö¡ æåĞÇ åæ ÃŞá ãÇ íãßääí ÊŞÏíãå áßö¡ ÃÊãäì Ãä íÚÌÈßö åĞÇ ÇáãæŞÚ¡ ÊÓÊÍŞíä ßá ÇáÎíÑ ??</p>
-    <p><strong>Husein</strong></p>
+    <p>ÙƒÙ„ Ø³Ù†Ø© ÙˆØ£Ù†ØªÙ Ø·ÙŠØ¨Ø© ÙŠØ§ SuhaØŒ</p>
+    <p>ÙÙŠ Ù‡Ø°Ø§ Ø§Ù„ÙŠÙˆÙ… Ø§Ù„Ø¬Ù…ÙŠÙ„ØŒ Ø¬Ø¦ØªÙ Ø¥Ù„Ù‰ Ø§Ù„Ø¹Ø§Ù„Ù… Ù„ØªÙ†Ø´Ø±ÙŠ Ø§Ù„ÙØ±Ø­ ÙˆØ§Ù„Ø­Ø¨ ÙÙŠ Ù‚Ù„ÙˆØ¨ Ù…Ù† Ø­ÙˆÙ„Ùƒ. Ø£ØªÙ…Ù†Ù‰ Ù„ÙƒÙ Ø­ÙŠØ§Ø© Ù…Ù„ÙŠØ¦Ø© Ø¨Ø§Ù„Ø³Ø¹Ø§Ø¯Ø©ØŒ ÙˆØ§Ù„Ù†Ø¬Ø§Ø­ØŒ ÙˆÙƒÙ„ Ù…Ø§ ØªØªÙ…Ù†ÙŠÙ†Ù‡. Ø´ÙƒØ±Ø§Ù‹ Ù„ÙƒÙˆÙ†ÙƒÙ ØµØ¯ÙŠÙ‚Ø© Ø±Ø§Ø¦Ø¹Ø©ØŒ Ø£ØªÙ…Ù†Ù‰ Ø£Ù† ÙŠÙƒÙˆÙ† ÙŠÙˆÙ…ÙƒÙ Ù…Ù…ÙŠØ²Ø§Ù‹ Ù…Ø«Ù„Ùƒ ØªÙ…Ø§Ù…Ø§Ù‹!</p>
+    <p>Ù…Ø¹ ÙƒÙ„ Ø§Ù„Ø­Ø¨ØŒ</p>
+    <p><strong>ØµØ¯ÙŠÙ‚ØªÙƒ</strong></p>
   </div>
 
   <footer>
-    &copy; ÍŞæŞ ÇáØÈÚ æÇáäÔÑ: Husein Samir
+    &copy; 2025 | Designed with love
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
