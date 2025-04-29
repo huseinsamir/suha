@@ -1,0 +1,16 @@
+// ÅÖÇİÉ ÈÇáæäÇÊ ÈÔßá ÚÔæÇÆí Úáì ÇáÕİÍÉ
+function createBalloon() {
+  const balloon = document.createElement("div");
+  balloon.classList.add("balloon");
+  balloon.style.left = `${Math.random() * 100}vw`;
+  balloon.style.animationDuration = `${Math.random() * 5 + 5}s`;
+  document.querySelector(".balloons-container").appendChild(balloon);
+
+  // ÅÒÇáÉ ÇáÈÇáæä ÈÚÏ Ãä íÛÇÏÑ ÇáÔÇÔÉ
+  setTimeout(() => {
+    balloon.remove();
+  }, 10000); // ÈÚÏ 10 ËæÇäò
+}
+
+// ÅäÔÇÁ ÈÇáæäÇÊ ÈÔßá ÚÔæÇÆí ßá 1 ËÇäíÉ
+setInterval(createBalloon, 1000);

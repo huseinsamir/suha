@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Úםֿ דםבַֿ ׃Úםֿ Suha!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="balloons-container">
+    <!-- ַָבזהַÊ דÊֽׁßֹ -->
+  </div>
+  <header>
+    <h1>Úםֿ דםבַֿ ׃Úםֿ Suha :)</h1>
+    <h2>30 ֳָׁםב 2003</h2>
+  </header>
+
+  <div class="message">
+    <p>Suha¡ ßב Úַד זֳהÊצ ָ־םׁ!</p>
+    <p>ֳÊדהל ֳה ÊֽÞÞם ßב ֳֽבַדßצ¡ זו׀ַ וז ֳÞב דַ םדßההם ÊÞֿםדו בßצ¡ ֳÊדהל ֳה םÚָּßצ ו׀ַ ַבדזÞÚ¡ Ê׃ÊֽÞםה ßב ַב־םׁ ??</p>
+    <p><strong>Husein</strong></p>
+  </div>
+
+  <footer>
+    &copy; ֽÞזÞ ַב״ָÚ זַבהװׁ: Husein Samir
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

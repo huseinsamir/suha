@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  color: #fff;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 100px 20px 50px;
+}
+
+h1 {
+  font-size: 3em;
+  animation: fadeInDown 2s ease-in-out;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: -10px;
+  animation: fadeInUp 2s ease-in-out;
+}
+
+.message {
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 15px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  backdrop-filter: blur(5px);
+  animation: fadeIn 3s ease-in-out;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #f3f3f3;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* »«·Ê‰«  „ Õ—ﬂ… */
+.balloons-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.balloon {
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  background-color: #ff69b4;
+  border-radius: 50% 50% 45% 45%;
+  animation: floatUp 6s linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(100vh); }
+  100% { transform: translateY(-100vh); }
+}
